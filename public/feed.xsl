@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>RSS — Michael Crump</title>
         <link rel="icon" href="assets/favicon.svg?v=20260722-1" type="image/svg+xml"/>
-        <link rel="stylesheet" href="assets/css/site.css?v=20260722-4"/>
+        <link rel="stylesheet" href="assets/css/site.css?v=20260722-5"/>
       </head>
       <body>
         <a class="skip-link" href="#content">Skip to content</a>
