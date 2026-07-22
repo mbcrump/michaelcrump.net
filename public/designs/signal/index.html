@@ -8,33 +8,61 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip" href="#content">Skip to content</a>
-  <header>
-    <a class="logo" href="../"><span>MC</span> michaelcrump.net</a>
-    <nav aria-label="Preview navigation"><a href="#writing">Writing</a><a href="#about">About</a><a href="../">All designs</a></nav>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="Michael Crump design preview home"><span class="brand-mark" aria-hidden="true">MC</span><span>Michael Crump</span></a>
+      <nav aria-label="Primary navigation">
+        <a aria-current="page" href="./">Home</a>
+        <a href="../../archive.html">Archive</a>
+        <a href="../../about.html">About</a>
+        <a href="../../feed.xml">RSS</a>
+      </nav>
+    </div>
   </header>
+
   <main id="content">
-    <section class="hero">
-      <div class="status"><i></i> Currently building</div>
-      <p class="prompt">~/notes <span>on main</span></p>
-      <h1>Build.<br><em>Break.</em><br>Learn.</h1>
-      <p class="lede">Practical field notes on software, developer tools, AI, and everything learned between the first commit and the final fix.</p>
-      <a class="primary" href="#writing">Read the latest <b>↘</b></a>
-    </section>
-    <section class="writing" id="writing">
-      <div class="section-label"><span>01</span> Latest writing</div>
-      <article class="featured">
-        <div><span class="tag">Personal</span><span class="date">Coming soon</span></div>
-        <h2>Hello Again</h2>
-        <p>A fresh start for MichaelCrump.net and a return to writing in public.</p>
-        <span class="read">First post in draft →</span>
-      </article>
-      <div class="topics">
-        <p>Exploring next</p><span>AI workflows</span><span>Developer tools</span><span>Lessons learned</span>
+    <section class="hero shell">
+      <p class="eyebrow">A fresh notebook</p>
+      <h1>Building, breaking, and learning in public.</h1>
+      <p class="hero-copy">Practical notes on software development, developer tools, AI, and the useful lessons hiding inside unfinished work.</p>
+      <div class="hero-actions">
+        <a class="button" href="#latest">Read the latest</a>
+        <a class="text-link" href="../../about.html">About Michael <span aria-hidden="true">→</span></a>
       </div>
     </section>
-    <section class="about" id="about"><span>MICHAEL CRUMP / SOFTWARE BUILDER &amp; WRITER</span><p>The useful part is rarely the polished result. It’s what you learn while trying to get there.</p></section>
+
+    <section class="shell writing-section" id="latest" aria-labelledby="latest-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">From the blog</p>
+          <h2 id="latest-title">Latest writing</h2>
+        </div>
+        <a class="text-link" href="../../archive.html">View the archive <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="empty-state">
+        <p class="empty-kicker">The next post is taking shape.</p>
+        <h3>A new chapter starts here.</h3>
+        <p>The archive is intentionally quiet for now. The first new article is in draft, and future posts will appear here as they are published.</p>
+      </div>
+    </section>
+
+    <aside class="shell note-card" aria-label="Site note">
+      <p class="eyebrow">Under the hood</p>
+      <p>This site is deliberately simple: plain HTML and CSS, deployed on GitHub Pages, with no framework or build dependency.</p>
+    </aside>
   </main>
-  <footer><span>© 2026 Michael Crump</span><div><a href="https://github.com/mbcrump">GitHub</a><a href="https://www.linkedin.com/in/mbcrump">LinkedIn</a><a href="../../feed.xml">RSS</a></div></footer>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>© 2026 Michael Crump</p>
+      <div class="footer-links">
+        <a href="https://github.com/mbcrump">GitHub</a>
+        <a href="https://www.linkedin.com/in/mbcrump">LinkedIn</a>
+        <a href="../../feed.xml">RSS</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
