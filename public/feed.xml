@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="feed.xsl?v=20260722-1"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Michael Crump</title>
-  <subtitle>Software development, developer tools, AI, and lessons learned while building things.</subtitle>
+  <subtitle>Software development, Developer Relations, developer tools, AI, and lessons learned while building things.</subtitle>
   <link href="https://www.michaelcrump.net/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://www.michaelcrump.net/" rel="alternate" type="text/html"/>
   <id>https://www.michaelcrump.net/</id>
