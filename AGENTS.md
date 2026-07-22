@@ -10,6 +10,8 @@ This repository is a dependency-free static blog hosted on GitHub Pages.
 - Keep `public/.nojekyll` in place.
 - Use relative links so the site works both at the temporary GitHub Pages project URL and at `https://www.michaelcrump.net/`.
 - Keep the site accessible, responsive, and usable without JavaScript.
+- The dark “Signal” visual system is the approved site design. Reuse the colors, typography, spacing, header, navigation, and footer from `public/assets/css/site.css` across every published page.
+- Keep the browser presentation for `public/feed.xml` in sync through `public/feed.xsl`.
 
 ## Publishing a post
 
