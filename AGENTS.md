@@ -1,4 +1,4 @@
-# Codex instructions for MichaelCrump.net
+# Codex instructions for michaelcrump.net
 
 This repository is a dependency-free static blog hosted on GitHub Pages.
 
